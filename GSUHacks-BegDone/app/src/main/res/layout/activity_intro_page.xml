@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.IntroPage"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center_horizontal"
+        android:text="Welcome to your insightful experience"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="81dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center_horizontal"
+        android:text="Dive deep into the pool of well-versed and compelling articles"
+        android:textAlignment="gravity"
+        android:textColor="@color/TextGrey"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:background="@drawable/ideas"
+
+/>
+
+
+    <Button
+        android:id="@+id/intro_signin"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="SIGN IN"
+        android:textColor="#000"
+       />
+    <Button
+        android:id="@+id/intro_signup"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="SIGN UP"
+        android:backgroundTint="@color/white"
+        />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/metalogo"
+        />
+
+
+</LinearLayout>
